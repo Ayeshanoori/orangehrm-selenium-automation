@@ -1,0 +1,57 @@
+{
+  "config": {
+    "url": "https://opensource-demo.orangehrmlive.com/",
+    "browser": "chrome"
+  },
+
+  "loginData": {
+    "validUsername": "Admin",
+    "validPassword": "admin123",
+    "invalidUsername": "Admin1",
+    "invalidPassword": "admin12345",
+    "dashboardText": "Dashboard",
+    "invalidLoginText": "Invalid credentials"
+  },
+
+  "employeeData": [
+    {
+      "firstName": "Ayesha",
+      "middleName": "Noor",
+      "lastName": "Khan",
+      "employeeId": "1001"
+    },
+    {
+      "firstName": "Ali",
+      "middleName": "Ahmed",
+      "lastName": "Sheikh",
+      "employeeId": "1002"
+    }
+  ],
+
+  "recruitmentData": {
+    "firstName": "Sara",
+    "lastName": "Ahmed",
+    "email": "sara@example.com",
+    "contactNumber": "03123456789",
+    "keywords": "QA Automation Selenium"
+  },
+
+  "myInfoData": {
+    "nickname": "Ayesh",
+    "maritalStatus": "Single",
+    "nationality": "Pakistani"
+  },
+
+  "searchEmployeeData": {
+    "employeeName": "Ayesha Khan",
+    "employeeId": "1001"
+  },
+
+  "assertions": {
+    "appointmentConfirmation": "Successfully Saved",
+    "employeeAddedText": "Successfully Saved",
+    "employeeDeletedText": "Successfully Deleted",
+    "leaveAppliedText": "Success",
+    "logoutText": "Login"
+  }
+}
